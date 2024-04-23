@@ -1,0 +1,330 @@
+/****************SMALL SCREEN RULES****************/
+
+
+
+body {
+    background-image: url("../images/top-view-sport-equipment.jpg"); /************BKG PICTURE DOWNLOADED FROM FREEPIK**********/
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+
+
+
+
+
+
+
+
+
+/***************THE CONTACT PAGE RULES FOR CONTAINER FORM SMALL SCREEN***********/
+
+* {
+    box-sizing: border-box;
+  }
+aside {
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+    padding-top: 10px;
+    height: 60px;
+}
+
+  
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid rgb(3, 43, 16);
+      border-radius: 4px;
+      resize: vertical;  
+  }
+  
+  
+  input[type=email] {
+      border: 2px solid rgb(3, 43, 16);
+  }
+  
+  input[type=tel] {
+      border: 2px solid rgb(3, 43, 16);
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  
+  }
+  
+  input[type=submit] {
+    background-color: rgb(3, 73, 30);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    text-align: left;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(35, 109, 66);
+  }
+  
+  .container2 {
+    border-radius: 5px;
+    background-color: rgba(227,226,211,1.00);
+    padding: 20px;
+    color: black;
+    text-align: left;
+  }
+  
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+  /***************************** NAVIGATION BAR for EVERY page************************/
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+    color: #03900E;
+
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+    color: #1BCF2B;
+}
+
+  
+  
+  
+
+
+
+
+
+
+  
+/*These are rules for the <FOOTER> in EVERY page*/
+footer {
+    clear: both;
+    text-align: center;
+    color: #03900E;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F9F9F9;
+    bottom: 0px;
+  }
+
+
+
+
+/****INDEX PAGE RULES*******/
+.indexsection {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 50%;
+    margin-top: 0px;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    text-align: center;
+    margin-left: 2%;
+    display: inline-block;
+}
+.indexsection img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/***********THE ABOUT PAGE RULES**********/
+.aboutpic {
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: right;
+}
+.about-era {
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 30px;
+    top: 20%;
+    position: absolute;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.titles {
+    color: #000000;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+/***********THE TIPS PAGE RULES***********/
+.tips-pics {
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    position: static;
+}
+
+.tip2img {
+    float: right;
+    margin-left: 3%;
+    margin-top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/**********THE RECIPE PAGE RULES******/
+.recipes {
+    float: right;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************* LARGE SCREEN RULES BELOW ************************************/
+
+
+
+/*  Following are the CHANGES to the default rules for LARGE screens*/
+
+
+@media screen and (max-width:650px){
+	
+	
+body {
+    background-image: url("../images/top-view-sport-equipment.jpg");
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+	
+	
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+    color: #03900E;
+
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+    color: #1BCF2B;
+}
+
+	
+.aboutpic {
+    width: 30%;
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: none;
+}
+.about-era {
+    width: 50%;
+    padding-top: 2.5px;
+    padding-right: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 2.5px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 30px;
+    top: 20%;
+    position: absolute;
+    margin-right: 2%;
+    margin-left: 2%;
+	float: none;
+}
+	
+	
+.recipes {
+    float: none;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+}
+	
+
+
+	
+	
+}
+
+
+
+
+
+
